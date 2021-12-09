@@ -1,0 +1,130 @@
+
+.homeCatDiv{
+    text-align: center; 
+}
+
+.j1{
+   margin: 60px  0px 40px 0px;
+   font-size: 1.5rem;
+}
+
+.homeImg{
+    width: 400px;
+    height: 500px;
+    margin: 0px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.titleHome{
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    height: 50px;
+    top: 430px;
+    left: 100px;
+    right: 100px;
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid rgb(14, 212, 212);
+}
+
+
+.titleHome2{
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    height: 50px;
+    top: 330px;
+    left: 206px;
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid rgb(14, 212, 212);
+}
+
+.homeImg2{
+    width: 85%;
+    height: 400px;
+    margin: 0px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.rows12{
+    padding: 20px;
+   
+    cursor: pointer;
+}
+
+.rows13{
+    padding: 20px 0px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.twerk{
+    width: 100%;
+    height: 100%;
+    transition: all 0.2s linear;
+}
+
+.twerk:hover{
+    transform: scale(1.1);
+}
+
+.rj{
+    padding: 15px 25px;
+}
+
+.title12{
+    font-size: 2rem;
+    margin-bottom: 5px;
+    color: tomato;
+   
+    font-weight: bold;
+}
+
+.title123{
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+}
+
+.homeCatDiv2{
+    text-align: center;
+    padding: 25px 0px 30px 0px;
+    background-color:#E6F4F1;
+    margin-bottom: 90px;
+    margin-top: 35px;
+}
+
+.kk{
+    background-color: #E6F4F1;
+    padding: 50px 40px 30px 40px;
+}
+
+.footer{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 30px;
+    color: rgb(70, 70, 70);
+  
+}
+.contactIcon{
+    margin-top: 5px;
+    margin-right: 10px;
+    /* color: rgb(212, 14, 163); */
+}
+
+.z1{
+    line-height: 1.9;
+    color: rgb(148, 147, 147);
+}
+
+.socialIcons{
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.socialIcons:hover{
+    transform: scale(1.1);
+}

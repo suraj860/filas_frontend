@@ -1,0 +1,72 @@
+
+
+.cards{
+    width:100%;
+    overflow: hidden;
+}
+
+.r1{
+    padding-top: 15px;
+}
+
+.prd{
+   margin-bottom: 30px; 
+}
+
+.actives{
+    background-color: black;
+    color: red;
+}
+.t2{
+    margin: 0;
+    font-weight: bold;
+    color: rgb(0, 0, 0 , 0.7);
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 8px;
+}
+
+.t3{
+    font-size: 15px;
+    color: rgb(134, 134, 134);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.productRow{
+    height: 82vh;
+    overflow: scroll; 
+    overflow-x: hidden;
+   
+}
+.imgDiv{
+    overflow: hidden;
+}
+
+.prodimg{
+    width: 100%;
+    height: 385px;
+    transition: all 0.2s linear;
+}
+
+.prodimg:hover{
+    transform:scale(1.1);
+}
+
+.prdName{
+    padding-left: 3px;
+    font-weight: bold;
+    color: rgb(0 , 0, 0 , 0.7);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.itemNames{ 
+    margin:  0;
+    padding-top: 2px ;
+    padding-bottom: 2px;
+}
+
+.type{
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: lighter;
+    color: rgb(134, 134, 134);;
+}

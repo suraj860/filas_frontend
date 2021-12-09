@@ -1,0 +1,169 @@
+
+
+.cartImage , .cartImg{
+    width: 180px;
+    height: 200px;
+}
+
+.cartImage{
+    margin-right: 25px;
+}
+
+.parentCart{
+    display:flex;
+    padding: 20px;
+}
+
+.h1s,.h2s,.h3s,.h4s, .h5s , .h6s{
+    margin-bottom: 10px;
+}
+
+.h1s{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.h2s , .h3s, .h4s , .h6s {
+    font-size: 15px;
+    color:rgb(187, 184, 184);
+}
+
+.h5s{
+    font-weight: bold;
+    
+}
+
+.cartRemoveBtn{
+    border: 1px solid rgb(187, 184, 184);
+    border-radius: 0.7rem;
+    background-color: white;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.cartRemoveBtn:focus{
+    outline: none;
+}
+
+.cartRemoveBtn:hover{
+    background-color: rgb(221, 27, 92);
+    color: white;
+}
+
+.span1{
+    color: white;
+    background-color: rgb(14, 212, 212);
+    padding: 8px 10px;
+    border-radius: 0.7rem;
+}
+
+.billingDetails{
+    padding: 15px 0 15px 10px;
+    background-color: rgb(14, 212, 212);
+    color: white;
+    
+}
+
+.b1 , .b2 , .b3{
+    margin-bottom: 0px;
+}
+
+.b3{
+    color: green;
+}
+
+.ship{
+    margin-right: 10px;
+    color: rgb(187, 184, 184);
+}
+
+.paymentForm{
+    padding: 10px 15px;
+}
+
+.pay1{
+    margin-left: 10px;
+    /* color :goldenrod */
+}
+
+.addressForm{
+    padding: 10px 15px;
+}
+
+.addressForm>input[type=text]{
+    margin-bottom: 10px;
+    padding: 6px 10px;
+    border-radius: 0.4rem;
+    border: 1px solid rgb(187, 184, 184);
+    width: 100%;
+}
+
+.addressForm>input[type=text]:focus{
+    outline: none;
+}
+
+.addressDownbtn{
+    padding: 0px 5px;
+    border: none;
+    margin-top: 8px;
+    border-radius: 0.3rem;
+    background-color: rgb(14, 212, 212);
+    cursor: pointer;
+}
+
+.addressDownbtn:focus{
+    outline: none;
+}
+
+.deliveryDiv{
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 8px;
+    background-color: rgb(14, 212, 212);
+    color: white;
+}
+
+.orderssBtnss{
+    background-color: rgb(14, 212, 212);
+    padding:5px;
+    font-size: 17px;
+    color: white;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.b6{
+    margin-bottom: 0px;
+    padding:8px 0px 0px 15px;
+}
+
+.b7{
+    margin-bottom: 0px;
+    padding:8px 0px 0px 15px ;
+}
+
+.payMethodDiv{
+    padding-bottom: 8px;
+    background-color: rgb(14, 212, 212);
+    color: white;
+}
+
+.wl1{
+    padding: 0px 40px;
+}
+
+.btn123{
+    margin-right: 10px;
+}
+
+.btn123:hover{
+    background-color: rgb(14, 212, 212);
+}
+
+
+
+@media(max-width:470px){
+    .parentCart{
+        display: block;
+    }
+}
